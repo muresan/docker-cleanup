@@ -10,3 +10,8 @@ Cleanup docker containers and images using `docker container prune` and `docker 
 docker run -d -e FORCE=true -e DELAY=4h muresan/docker-cleanup
 ```
 
+## Notes
+
+* requires docker version 17.06 or newer for `--filter` to work
+
+
